@@ -31,9 +31,44 @@ You can search as you type and see results of lists, bookmarks, tags and domains
 
 You can create organizations, invite people and collectively add and organise your bookmarks.
 
+![orgs-list](https://i.imgur.com/cHB15XF.png)
+
 ### Slack Integration
 
 ### Aliases
+
+You can create shortcuts to links you commonly use. We call such shortcuts `aliases`.
+Aliases can either be private for a user or they can be global for an
+organization.
+
+![list-aliases](https://i.imgur.com/aZvW1QV.png)
+
+You can use the {web, mobile, desktop} UI to create a new alias, or you
+can use the Slack integration.
+
+For example, let's say you assign an alias to `https://security-tracker.debian.org/tracker/source-package/{{*}}`
+to `deb-sec`.
+
+![new-alias](https://i.imgur.com/LlN0JNB.png)
+
+Then when you navigate to `https://tefter.io/go/deb-sec/nginx` you'll be redirected to
+`https://security-tracker.debian.org/tracker/source-package/nginx`.
+
+Aliases can be static, or dynamic. Dynamic aliases contain variable segments. Use `{{*}}` to create dynamic segments.
+
+So, an alias `ex` pointing to `https://example.com/{{*}}/a/{{*}}/b/{{*}}` when invoked with
+`go/ex/1/2/3` will redirect to `https://example.com/1/a/2/b/3`.
+
+**Browser Extension**
+
+You can use the browser extension to quickly navigate using aliases.
+This is currently only available in Chrome.
+
+![aliases-extension](https://i.imgur.com/oxoYBtu.gif)
+
+**Coming Soon**
+
+Functions in dynamic aliases.
 
 ## Privacy
 
