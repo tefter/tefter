@@ -9,14 +9,27 @@ Tefter (https://tefter.io) is a social bookmarking app for individuals and teams
 It's privacy focused, portable (mobile, desktop apps), has a growing list of integrations and
 enables team collaboration.
 
+![features-overview](https://i.imgur.com/lFJtSuR.png)
+
 
 # Features
 
 ## Intelligent Search
 
+We index the contents of the pages you bookmark, but also calculate interesting metadata
+like word count, reading time, author and topics for articles.
+
+![search](https://i.imgur.com/2Mlxg23.png)
+
 ### Autocomplete
 
+You can search as you type and see results of lists, bookmarks, tags and domains.
+
+![autocomplete](https://i.imgur.com/sGODGRP.gif)
+
 ## Team Collaboration
+
+You can create organizations, invite people and collectively add and organise your bookmarks.
 
 ### Slack Integration
 
@@ -39,6 +52,10 @@ to worry about lock-in or Tefter becoming unavailable.
 ## Feeds
 
 ## Lists
+
+## Notes
+
+You can write notes using Markdown on your bookmarks and lists.
 
 ### Favorites
 
@@ -82,9 +99,9 @@ even in the occasion they're down.
 
 ### Desktop
 
+![desktop-app](https://i.imgur.com/TggU5w2.png)
 
-To download, see [here](https://github.com/tefter/desktop)
-
+To download, see [here](https://github.com/tefter/desktop#downloads)
 
 ### Mobile
 
@@ -92,8 +109,7 @@ To download, see [here](https://github.com/tefter/desktop)
 
 * [Chrome / Brave](https://chrome.google.com/webstore/detail/tefter/eldofalegbgagpenjjcapjaogpioldoh)
 * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tefter/)
-* [Bookmarklet][bookmarklet]
-
+* [Bookmarklet](javascript:q=location.href;if(document.getSelection)%7Bd=document.getSelection();%7Delse%7Bd='';%7D;p=document.title;void(open('https://www.tefter.io/bookmarks/new?showtags=yes&source_app=bookmarklet&uri='+encodeURIComponent(q)+'&notes='+encodeURIComponent(d)+'&title='+encodeURIComponent(p),'tefter','toolbar=no,scrollbars=yes,width=750,height=700'));)
 
 
 # Feedback
@@ -104,4 +120,3 @@ There are multiple ways to provide feedback:
 * Our [Spectrum community](https://spectrum.chat/tefter)
 * Our [feedback form](https://www.tefter.io/feedback/new)
 
-[bookmarklet]: javascript:q=location.href;if(document.getSelection)%7Bd=document.getSelection();%7Delse%7Bd='';%7D;p=document.title;void(open('https://www.tefter.io/bookmarks/new?showtags=yes&source_app=bookmarklet&uri='+encodeURIComponent(q)+'&notes='+encodeURIComponent(d)+'&title='+encodeURIComponent(p),'tefter','toolbar=no,scrollbars=yes,width=750,height=700'));
