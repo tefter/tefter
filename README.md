@@ -4,7 +4,7 @@
 
 ---
 
-Tefter (https://tefter.io) is a social bookmarking app for individuals and teams.
+[Tefter](https://tefter.io) is a social bookmarking app for individuals and teams.
 
 It's privacy focused, portable (mobile, desktop apps), has a growing list of integrations and
 enables team collaboration.
@@ -42,6 +42,23 @@ users unless you explicitly decide to share it. Your whole profile can
 be unlisted via Privacy Settings -> "Allow others to discover my
 profile" (uncheck).
 
+## Feed
+
+There's variety of news sources you can subscribe to and create a personalized feed of the latest and most interesting
+things to read. When you follow users and they share bookmarks, they will also appear in your feed.
+
+![feeds-list](https://i.imgur.com/aWPvmJO.png)
+
+You can search and apply filters in any of our feeds.
+
+![feeds-search](https://i.imgur.com/6oqGuYE.png?1)
+
+## Lists
+
+Lists are a way to organize your bookmarks.
+
+![lists](https://i.imgur.com/tQ3hgCo.png)
+
 ### Data Export
 
 You can effortlessly export all your data in JSON format. You don't have
@@ -49,13 +66,18 @@ to worry about lock-in or Tefter becoming unavailable.
 
 ## Recommendations
 
-## Feeds
+We display recommendations based on your bookmarks, so that you can keep discovering interesting content.
 
-## Lists
+![recommendations](https://i.imgur.com/mcMi5X0.png)
+
 
 ## Notes
 
 You can write notes using Markdown on your bookmarks and lists.
+
+## Data Import
+
+You can import bookmarks from Pocket, Pinboard or the browser.
 
 ### Favorites
 
@@ -105,12 +127,19 @@ To download, see [here](https://github.com/tefter/desktop#downloads)
 
 ### Mobile
 
+When you have the mobile app installed, you can quickly add bookmarks by sharing links to Tefter.
+
+![share-to-tefter](https://i.imgur.com/yHrmMqE.jpg?1)
+
 ### Browser Extension
+
+You can quickly add bookmarks clicking on the Tefter extension icon.
+
+![chrome-extension](https://i.imgur.com/rRhI3xe.png)
 
 * [Chrome / Brave](https://chrome.google.com/webstore/detail/tefter/eldofalegbgagpenjjcapjaogpioldoh)
 * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tefter/)
-* [Bookmarklet](javascript:q=location.href;if(document.getSelection)%7Bd=document.getSelection();%7Delse%7Bd='';%7D;p=document.title;void(open('https://www.tefter.io/bookmarks/new?showtags=yes&source_app=bookmarklet&uri='+encodeURIComponent(q)+'&notes='+encodeURIComponent(d)+'&title='+encodeURIComponent(p),'tefter','toolbar=no,scrollbars=yes,width=750,height=700'));)
-
+* [Bookmarklet](https://tefter.io/faq#bookmarklet)
 
 # Feedback
 
@@ -119,4 +148,5 @@ There are multiple ways to provide feedback:
 * Via [email](mailto:support@tefter.io)
 * Our [Spectrum community](https://spectrum.chat/tefter)
 * Our [feedback form](https://www.tefter.io/feedback/new)
+* Follow us on [Twitter](https://twitter.com/Tefter_io)
 
