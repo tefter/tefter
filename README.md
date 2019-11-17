@@ -23,14 +23,17 @@ enables team collaboration.
 * [It's social](#its-social)
 * [Feed](#feed)
 * [Lists](#lists)
+* [Tags](#tags)
+* [Favorites](#favorites)
+* [Notes](#notes)
 * [Data Import](#data-import)
 * [Data Export](#data-export)
 * [Recommendations](#recommendations)
-* [Notes](#notes)
-* [Favorites](#favorites)
-* [Tags](#tags)
+* [Explore](#explore)
 * [Smart Previews](#smart-previews)
 * [Dead links discovery](#dead-links-discovery)
+* [Archiving](#archiving)
+* [Public API](#public-api)
 * [Readable mode](#readable-mode)
 * [Apps](#apps)
     + [Desktop](#desktop)
@@ -132,7 +135,7 @@ things to read. When you follow users and they share bookmarks, they will also a
 
 You can search and apply filters in any of our feeds.
 
-![feeds-search](https://i.imgur.com/DqlDDK4.png)
+![feeds-search](https://i.imgur.com/DqlDDK4.png?1)
 
 For example, you can search across [awesome](https://awesome.re) lists
 for Elixir libraries around [Ecto](https://github.com/elixir-ecto/ecto), using https://tefter.io/~awesome/bookmarks?q=elixir&tags=ecto
@@ -149,6 +152,16 @@ You can subscribe to lists and be notified each time a bookmark is added.
 
 ![list-subscriptions](https://i.imgur.com/aR5y6O5.png)
 
+## Tags
+
+You can add any number of tags to your bookmarks.
+Tags provide a supplementary to lists way to organize bookmarks.
+We do our best to suggest relevant tags. You can filter your bookmarks
+by any combination of tags.
+
+![tags](https://i.imgur.com/c4qHGU2.png)
+
+
 ## Data Import
 
 You can import bookmarks from Pocket, Pinboard or the browser.
@@ -164,6 +177,13 @@ We display recommendations based on your bookmarks, so that you can keep discove
 
 ![recommendations](https://i.imgur.com/mcMi5X0.png)
 
+## Explore
+
+There's https://tefter.io/explore where you can wander and find
+interesting things to read from our feeds and users you may not follow.
+
+![explore](https://i.imgur.com/TyYPIMW.png)
+
 ## Notes
 
 You can write notes using Markdown on your bookmarks and lists.
@@ -173,16 +193,6 @@ You can write notes using Markdown on your bookmarks and lists.
 We keep a "special" 🌈 list of bookmarks you've marked as favorites.
 
 ![mark-as-favourite](https://i.imgur.com/wA4ihZC.png)
-
-
-## Tags
-
-You can add any number of tags to your bookmarks.
-Tags provide a supplementary to lists way to organize bookmarks.
-We do our best to suggest relevant tags. You can filter your bookmarks
-by any combination of tags.
-
-![tags](https://i.imgur.com/c4qHGU2.png)
 
 ## Smart Previews
 
@@ -230,7 +240,6 @@ Example:
 
 We have a [public API](https://tefter.io/docs/api) you can use to build apps or automate any part of
 your bookmarking experience.
-
 
 ## Archiving
 
