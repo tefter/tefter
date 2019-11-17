@@ -79,7 +79,7 @@ message action to add a bookmark.
   Demo of the message action
   </summary>
 
-  <img src="https://i.imgur.com/YBYWJyd.gif" alt="slack integration add bookmark">
+  <img src="https://i.imgur.com/VQQ2OxX.gif" alt="slack integration add bookmark">
 </details>
 
 ### Aliases
@@ -224,7 +224,7 @@ For some websites, you can access the bookmarked content without leaving Tefter.
 We also do our best to annotate such bookmarks with relevant tags and title.
 
 For YouTube, we're fine-tuning a feature, where for songs, we'll be
-indexing lyrics. 
+indexing lyrics.
 
 So, given you've bookmarked https://www.youtube.com/watch?v=UelDrZ1aFeY
 
