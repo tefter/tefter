@@ -61,6 +61,14 @@ You can create organizations, invite people and collectively add and organise yo
 
 ### Slack Integration
 
+**Login**
+
+Any Slack workspace member who wishes to create or modify content of
+Tefter for the organization has to log in first. By logging in a Slack
+member account is connected to a Tefter one.
+
+Use `/tefter login` to connect your accounts.
+
 **Adding bookmarks**
 
 You can use the `/tefter <url>` command or a Slack
@@ -81,6 +89,57 @@ message action to add a bookmark.
 
   <img src="https://i.imgur.com/VQQ2OxX.gif" alt="slack integration add bookmark">
 </details>
+
+<br/>
+
+**Searching**
+
+You can use the `/tefter search <query>` command or mention the
+`@tefter` bot to search.
+
+An example using the mention might be:
+
+`Yo @tefter search functional programming`
+
+💡 There's a short version of the search command. It's just `s`.  
+Example: `/tefter s agile`
+
+<details>
+  <summary>
+  Demo of the search command
+  </summary>
+
+  <img src="https://i.imgur.com/4wqaTL4.gif" alt="slack integration search command">
+</details>
+
+<br/>
+
+**Creating an alias**
+
+`/tefter alias <alias> <url_pattern>`
+
+
+Example:
+
+`/tefter alias api-docs https://tefter.io/docs/api`
+
+or with a dynamic alias
+
+`/tefter alias deb-tracker https://tracker.debian.org/pkg/{{*}}`
+
+Read more about aliases in the section below.
+
+**Resolving an alias**
+
+`/tefter <alias_pattern>`
+
+Example:
+
+`/tefter deb-tracker/nginx`
+
+or by mentioning `@tefter`
+
+`@tefter deb-tracker/nginx`
 
 ### Aliases
 
@@ -112,6 +171,12 @@ You can use the browser extension to quickly navigate using aliases.
 This is currently only available in Chrome.
 
 ![aliases-extension](https://i.imgur.com/oxoYBtu.gif)
+
+**Search bar**
+
+You may also navigate using aliases from the search bar.
+
+![search-bar-demo](https://i.imgur.com/oGRZVSI.gif)
 
 **Command-Line Usage**
 
