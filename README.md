@@ -20,6 +20,7 @@ enables team collaboration.
   + [Slack Integration](#slack-integration)
 * [Aliases](#aliases)
 * [Privacy](#privacy)
+* [It's social](#its-social)
 * [Feed](#feed)
 * [Lists](#lists)
 * [Data Import](#data-import)
@@ -28,7 +29,6 @@ enables team collaboration.
 * [Notes](#notes)
 * [Favorites](#favorites)
 * [Tags](#tags)
-* [It's social](#its-social)
 * [Smart Previews](#smart-previews)
 * [Dead links discovery](#dead-links-discovery)
 * [Readable mode](#readable-mode)
@@ -116,6 +116,11 @@ profile" (uncheck).
 
 ## It's social
 
+You can follow users and see in your feed bookmarks they decided to share.
+You may also like any of the bookmarks appearing in your feed.
+
+![feed-like](https://i.imgur.com/00OOgA6.png)
+
 ## Feed
 
 There's variety of news sources you can subscribe to and create a personalized feed of the latest and most interesting
@@ -191,6 +196,7 @@ For YouTube, we're fine-tuning a feature, where for songs, we'll be
 indexing lyrics. 
 
 So, given you've bookmarked https://www.youtube.com/watch?v=UelDrZ1aFeY
+
 Searching for:
 
 > I don't want to leave her now
