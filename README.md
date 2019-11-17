@@ -16,25 +16,26 @@ enables team collaboration.
 
 * [Intelligent Search](#intelligent-search)
   + [Autocomplete](#autocomplete)
-* Team Collaboration
-  + Slack Integration
-* Aliases
-* Privacy
-* Feed
-* Lists
-* Data Import
-* Data Export
-* Recommendations
-* Notes
-* Favorites
-* Tags
-* It's social
-* Dead links discovery
-* Readable mode
-* Apps
-    + Desktop
-    + Mobile
-    + Browser Extensions
+* [Team Collaboration](#team-collaboration)
+  + [Slack Integration](#slack-integration)
+* [Aliases](#aliases)
+* [Privacy](#privacy)
+* [Feed](#feed)
+* [Lists](#lists)
+* [Data Import](#data-import)
+* [Data Export](#data-export)
+* [Recommendations](#recommendations)
+* [Notes](#notes)
+* [Favorites](#favorites)
+* [Tags](#tags)
+* [It's social](#its-social)
+* [Smart Previews](#smart-previews)
+* [Dead links discovery](#dead-links-discovery)
+* [Readable mode](#readable-mode)
+* [Apps](#apps)
+    + [Desktop](#desktop)
+    + [Mobile](#mobile)
+    + [Browser Extensions](#browser-extensions)
 
 ## Intelligent Search
 
@@ -113,6 +114,8 @@ users unless you explicitly decide to share it. Your whole profile can
 be unlisted via Privacy Settings -> "Allow others to discover my
 profile" (uncheck).
 
+## It's social
+
 ## Feed
 
 There's variety of news sources you can subscribe to and create a personalized feed of the latest and most interesting
@@ -120,15 +123,30 @@ things to read. When you follow users and they share bookmarks, they will also a
 
 ![feeds-list](https://i.imgur.com/aWPvmJO.png)
 
+**Filtering**
+
 You can search and apply filters in any of our feeds.
 
-![feeds-search](https://i.imgur.com/6oqGuYE.png?1)
+![feeds-search](https://i.imgur.com/DqlDDK4.png)
+
+For example, you can search across [awesome](https://awesome.re) lists
+for Elixir libraries around [Ecto](https://github.com/elixir-ecto/ecto), using https://tefter.io/~awesome/bookmarks?q=elixir&tags=ecto
 
 ## Lists
 
 Lists are a way to organize your bookmarks.
 
 ![lists](https://i.imgur.com/tQ3hgCo.png)
+
+### List Subscriptions
+
+You can subscribe to lists and be notified each time a bookmark is added.
+
+![list-subscriptions](https://i.imgur.com/aR5y6O5.png)
+
+## Data Import
+
+You can import bookmarks from Pocket, Pinboard or the browser.
 
 ### Data Export
 
@@ -141,14 +159,9 @@ We display recommendations based on your bookmarks, so that you can keep discove
 
 ![recommendations](https://i.imgur.com/mcMi5X0.png)
 
-
 ## Notes
 
 You can write notes using Markdown on your bookmarks and lists.
-
-## Data Import
-
-You can import bookmarks from Pocket, Pinboard or the browser.
 
 ### Favorites
 
@@ -156,17 +169,47 @@ We keep a "special" 🌈 list of bookmarks you've marked as favorites.
 
 ![mark-as-favourite](https://i.imgur.com/wA4ihZC.png)
 
-### List Subscriptions
 
 ## Tags
 
-## It's social
+You can add any number of tags to your bookmarks.
+Tags provide a supplementary to lists way to organize bookmarks.
+We do our best to suggest relevant tags. You can filter your bookmarks
+by any combination of tags.
+
+![tags](https://i.imgur.com/c4qHGU2.png)
+
+## Smart Previews
+
+For some websites, you can access the bookmarked content without leaving Tefter.
+
+![smart-previews-youtube](https://i.imgur.com/ZJ874lI.png)
+
+We also do our best to annotate such bookmarks with relevant tags and title.
+
+For YouTube, we're fine-tuning a feature, where for songs, we'll be
+indexing lyrics. 
+
+So, given you've bookmarked https://www.youtube.com/watch?v=UelDrZ1aFeY
+Searching for:
+
+> I don't want to leave her now
+
+Will surface "The Beatles - Something" bookmark. Cool right?
 
 
 ## Dead links discovery
 
 We regularly check when your bookmarked pages are still available and
 you can filter and delete dead ones.
+
+**Filter by dead links**
+
+![filter-dead-links](https://i.imgur.com/SdFHzs4.png)
+
+**Access the archived page**
+
+![read-the-archive](https://i.imgur.com/bs2X7cr.png)
 
 ### Readable Mode
 
@@ -202,7 +245,7 @@ When you have the mobile app installed, you can quickly add bookmarks by sharing
 
 ![share-to-tefter](https://i.imgur.com/yHrmMqE.jpg?1)
 
-### Browser Extension
+### Browser Extensions
 
 You can quickly add bookmarks clicking on the Tefter extension icon.
 
@@ -220,4 +263,3 @@ There are multiple ways to provide feedback:
 * Our [Spectrum community](https://spectrum.chat/tefter)
 * Our [feedback form](https://www.tefter.io/feedback/new)
 * Follow us on [Twitter](https://twitter.com/Tefter_io)
-
