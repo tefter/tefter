@@ -63,9 +63,24 @@ You can create organizations, invite people and collectively add and organise yo
 
 **Adding bookmarks**
 
-You can use the `/tefter <url>` command to add a bookmark.
+You can use the `/tefter <url>` command or a Slack
+message action to add a bookmark.
 
-![slack-integration-add](https://i.imgur.com/YBYWJyd.gif)
+<details>
+  <summary>
+  Demo of the command
+  </summary>
+
+  <img src="https://i.imgur.com/YBYWJyd.gif" alt="slack integration add bookmark">
+</details>
+
+<details>
+  <summary>
+  Demo of the message action
+  </summary>
+
+  <img src="https://i.imgur.com/YBYWJyd.gif" alt="slack integration add bookmark">
+</details>
 
 ### Aliases
 
@@ -186,7 +201,7 @@ We display recommendations based on your bookmarks, so that you can keep discove
 ## Explore
 
 There's https://tefter.io/explore where you can wander and find
-interesting things to read from our feeds and users you may not follow.
+interesting things to read from our feeds or find users to follow.
 
 ![explore](https://i.imgur.com/TyYPIMW.png)
 
@@ -276,7 +291,7 @@ You can quickly add bookmarks clicking on the Tefter extension icon.
 
 **Search**
 
-Or you can search straight from the address bar.
+Or you can search straight from the address bar, by typing `t` followed by the `tab` key.
 
 ![chrome-omnibar](https://i.imgur.com/O29gxoR.gif)
 
