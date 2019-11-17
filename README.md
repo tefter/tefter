@@ -346,6 +346,14 @@ When you have the mobile app installed, you can quickly add bookmarks by sharing
 
 ![share-to-tefter](https://i.imgur.com/yHrmMqE.jpg?1)
 
+**Installation**
+
+You can install Tefter as a progressive web app. See [how](https://twitter.com/Tefter_io/status/1106145149019742210).
+
+**Android App**
+
+The app will be available on Google Play soon.
+
 ### Browser Extensions
 
 **Add bookmark**
