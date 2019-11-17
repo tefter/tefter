@@ -14,6 +14,28 @@ enables team collaboration.
 
 # Features
 
+* [Intelligent Search](#intelligent-search)
+  + [Autocomplete](#autocomplete)
+* Team Collaboration
+  + Slack Integration
+* Aliases
+* Privacy
+* Feed
+* Lists
+* Data Import
+* Data Export
+* Recommendations
+* Notes
+* Favorites
+* Tags
+* It's social
+* Dead links discovery
+* Readable mode
+* Apps
+    + Desktop
+    + Mobile
+    + Browser Extensions
+
 ## Intelligent Search
 
 We index the contents of the pages you bookmark, but also calculate interesting metadata
@@ -65,6 +87,20 @@ You can use the browser extension to quickly navigate using aliases.
 This is currently only available in Chrome.
 
 ![aliases-extension](https://i.imgur.com/oxoYBtu.gif)
+
+**Command-Line Usage**
+
+We're working on command-line application you can use to interact with Tefter.
+Until it's released you can use a simple shell function like the following to navigate using aliases.
+
+```shell
+# Add this to your .zshrc
+te() {
+  open "https://tefter.io/go/$1"
+}
+```
+
+![terminal-app](https://i.imgur.com/EJw1Hx6.gif)
 
 **Coming Soon**
 
