@@ -61,6 +61,12 @@ You can create organizations, invite people and collectively add and organise yo
 
 ### Slack Integration
 
+**Adding bookmarks**
+
+You can use the `/tefter <url>` command to add a bookmark.
+
+![slack-integration-add](https://i.imgur.com/YBYWJyd.gif)
+
 ### Aliases
 
 You can create shortcuts to links you commonly use. We call such shortcuts `aliases`.
@@ -262,9 +268,19 @@ When you have the mobile app installed, you can quickly add bookmarks by sharing
 
 ### Browser Extensions
 
+**Add bookmark**
+
 You can quickly add bookmarks clicking on the Tefter extension icon.
 
 ![chrome-extension](https://i.imgur.com/rRhI3xe.png)
+
+**Search**
+
+Or you can search straight from the address bar.
+
+![chrome-omnibar](https://i.imgur.com/O29gxoR.gif)
+
+**Install**
 
 * [Chrome / Brave](https://chrome.google.com/webstore/detail/tefter/eldofalegbgagpenjjcapjaogpioldoh)
 * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tefter/)
