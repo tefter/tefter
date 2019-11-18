@@ -196,6 +196,12 @@ te() {
 
 Functions in dynamic aliases.
 
+### Bookmarks Import
+
+We're working on functionality to import bookmarks to your organizations.
+Meanwhile if you need any support importing bookmarks from any source to
+your org, let us know, we'll be happy to help.
+
 ## Privacy
 
 We don't sell your data. Anything you post won't be public to other
