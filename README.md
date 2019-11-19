@@ -23,6 +23,7 @@ enables team collaboration.
 * [It's social](#its-social)
 * [Feed](#feed)
 * [Lists](#lists)
+  + [Sharing](#private-list-sharing)
 * [Tags](#tags)
 * [Favorites](#favorites)
 * [Notes](#notes)
@@ -58,6 +59,15 @@ You can search as you type and see results of lists, bookmarks, tags and domains
 You can create organizations, invite people and collectively add and organise your bookmarks.
 
 ![orgs-list](https://i.imgur.com/cHB15XF.png)
+
+Creating a Tefter organization is free for up to 5 seats. A seat is
+reserved for members who can add / edit / delete content. Read-only
+operations don't require occupying a seat, meaning that even in the free
+tier all the members of the org can search and use aliases.
+
+We're committed to give back to open-source, so such communities can use
+Tefter for free without any limitations. Just shoot an [email](support@tefter.io) and we'll
+be happy to upgrade your plan.
 
 ### Slack Integration
 
@@ -140,6 +150,10 @@ Example:
 or by mentioning `@tefter`
 
 `@tefter deb-tracker/nginx`
+
+**Listing all aliases**
+
+`/tefter aliases`
 
 ### Aliases
 
@@ -238,6 +252,15 @@ Lists are a way to organize your bookmarks.
 
 ![lists](https://i.imgur.com/tQ3hgCo.png)
 
+They can either be public, which means that anyone can view them or private.
+
+### Private List Sharing
+
+You can share private lists to anyone on the internet, by generating a
+special "share" link.
+
+![private-list-sharing](https://i.imgur.com/fvsyFaz.png)
+
 ### List Subscriptions
 
 You can subscribe to lists and be notified each time a bookmark is added.
@@ -252,7 +275,6 @@ We do our best to suggest relevant tags. You can filter your bookmarks
 by any combination of tags.
 
 ![tags](https://i.imgur.com/c4qHGU2.png)
-
 
 ## Data Import
 
