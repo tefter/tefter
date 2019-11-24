@@ -124,6 +124,17 @@ Example: `/tefter s agile`
 
 <br/>
 
+**Sharing search results with others**
+
+When searching for any results that you wish to share to the members of
+the channel, you can select "share".
+
+![share-search](https://i.imgur.com/raQBXG9.png)
+
+![share-search-notification](https://i.imgur.com/rVmMTVj.png)
+
+Keep in mind that @tefter has to be invited to that channel first.
+
 **Creating an alias**
 
 `/tefter alias <alias> <url_pattern>`
@@ -154,6 +165,10 @@ or by mentioning `@tefter`
 **Listing all aliases**
 
 `/tefter aliases`
+
+or by mentioning `@tefter`
+
+`@tefter aliases`
 
 ### Aliases
 
