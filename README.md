@@ -245,6 +245,12 @@ You may also like any of the bookmarks appearing in your feed.
 
 ![feed-like](https://i.imgur.com/00OOgA6.png)
 
+**Karma Points**
+
+Share interesting stuff and you may collect karma points.
+
+![karma-points](https://i.imgur.com/KnLjjso.png)
+
 ## Feed
 
 There's variety of news sources you can subscribe to and create a personalized feed of the latest and most interesting
@@ -260,6 +266,10 @@ You can search and apply filters in any of our feeds.
 
 For example, you can search across [awesome](https://awesome.re) lists
 for Elixir libraries around [Ecto](https://github.com/elixir-ecto/ecto), using https://tefter.io/~awesome/bookmarks?q=elixir&tags=ecto
+
+**Domains**
+
+Clicking on the domain of a bookmark, filters bookmarks by that domain.
 
 ## Lists
 
@@ -293,7 +303,9 @@ by any combination of tags.
 
 ## Data Import
 
-You can import bookmarks from Pocket, Pinboard or the browser.
+You can import bookmarks from Pocket, Pinboard, Google bookmarks or most popular browsers.
+
+![bookmarks-import](https://i.imgur.com/FT94kcq.png)
 
 ### Data Export
 
