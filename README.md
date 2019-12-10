@@ -173,8 +173,11 @@ or by mentioning `@tefter`
 ### Aliases
 
 You can create shortcuts to links you commonly use. We call such shortcuts `aliases`.
-Aliases can either be private for a user or they can be global for an
-organization.
+Registering an `api-docs` to `https://verylongnameapplication.com/api-docs` allows you to
+type `go/api-docs` in your browser's address bar to navigate there.
+Think of it as a https://www.golinks.io/ alternative.
+
+Aliases can either be private for a user or they can be global for an organization.
 
 ![list-aliases](https://i.imgur.com/aZvW1QV.png)
 
