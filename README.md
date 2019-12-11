@@ -18,6 +18,13 @@ enables team collaboration.
   + [Autocomplete](#autocomplete)
 * [Team Collaboration](#team-collaboration)
   + [Slack Integration](#slack-integration)
+      + [Login](#login-5)
+      + [Searching](#searching-1)
+      + [Sharing](#sharing-search-results-with-others)
+      + [Creating an alias](#creating-an-alias)
+      + [Resolving an alias](#resolving-an-alias)
+      + [Listing all aliases](#listing-all-aliases)
+      + [Listing the most popular bookmarks](#listing-the-most-popular-bookmarks)
 * [Aliases](#aliases)
 * [Privacy](#privacy)
 * [It's social](#its-social)
@@ -71,7 +78,7 @@ be happy to upgrade your plan.
 
 ### Slack Integration
 
-**Login**
+#### Login
 
 Any Slack workspace member who wishes to create or modify content of
 Tefter for the organization has to log in first. By logging in a Slack
@@ -102,7 +109,7 @@ message action to add a bookmark.
 
 <br/>
 
-**Searching**
+#### Searching
 
 You can use the `/tefter search <query>` command or mention the
 `@tefter` bot to search.
@@ -124,7 +131,7 @@ Example: `/tefter s agile`
 
 <br/>
 
-**Sharing search results with others**
+#### Sharing search results with others
 
 When searching for any results that you wish to share to the members of
 the channel, you can select "share".
@@ -143,7 +150,7 @@ the channel, you can select "share".
 
 Keep in mind that @tefter has to be invited to that channel first.
 
-**Creating an alias**
+#### Creating an alias
 
 `/tefter alias <alias> <url_pattern>`
 
@@ -158,7 +165,7 @@ or with a dynamic alias
 
 Read more about aliases in the section below.
 
-**Resolving an alias**
+#### Resolving an alias
 
 `/tefter <alias_pattern>`
 
@@ -170,7 +177,7 @@ or by mentioning `@tefter`
 
 `@tefter deb-tracker/nginx`
 
-**Listing all aliases**
+#### Listing all aliases
 
 `/tefter aliases`
 
@@ -178,7 +185,7 @@ or by mentioning `@tefter`
 
 `@tefter aliases`
 
-**Listing the most popular bookmarks**
+#### Listing the most popular bookmarks
 
 `/tefter news`
 
