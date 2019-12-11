@@ -129,9 +129,17 @@ Example: `/tefter s agile`
 When searching for any results that you wish to share to the members of
 the channel, you can select "share".
 
-![share-search](https://i.imgur.com/raQBXG9.png)
+<details>
+  <summary>
+  Demo of the sharing action
+  </summary>
 
-![share-search-notification](https://i.imgur.com/rVmMTVj.png)
+  <img src="https://i.imgur.com/raQBXG9.png" alt="slack integration share action">
+
+  <img src="https://i.imgur.com/rVmMTVj.png" alt="slack integration share action response">
+</details>
+
+<br/>
 
 Keep in mind that @tefter has to be invited to that channel first.
 
@@ -169,6 +177,14 @@ or by mentioning `@tefter`
 or by mentioning `@tefter`
 
 `@tefter aliases`
+
+**Listing the most popular bookmarks**
+
+`/tefter news`
+
+Our ranking algorithm factors in recency, likes and views.
+
+![tefter-news-command](https://i.imgur.com/XmrFUhs.png)
 
 ### Aliases
 
