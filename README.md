@@ -78,6 +78,11 @@ be happy to upgrade your plan.
 
 ### Slack Integration
 
+You can interact with Tefter on Slack using either commands or mentions.
+
+To invoke commands use either `/tefter <command>` or the shorter equivalent `/t <command>`.
+For mentions use `@tefter <command>`.
+
 #### Login
 
 Any Slack workspace member who wishes to create or modify content of
